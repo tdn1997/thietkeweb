@@ -1,0 +1,39 @@
+header {
+  background-color: #006600;
+  width: 100%;
+  height: 20%;
+  color: #eee;
+  font-size: 20pt;
+}
+nav {
+  background-color: #ff9;
+  width: 100%;
+  height: 5%;
+  color: #f00;
+  font-size: 20pt;
+}
+aside {
+  background-color: #c9f;
+  width: 20%;
+  height: 65%;
+  color: #f63;
+  font-size: 20pt;
+  float: right;
+}
+article {
+  background-color: #fcf;
+  width: 80%;
+  height: 65%;
+  color: #0c3;
+  font-size: 20pt;
+  float: left;
+  text-align: center;
+}
+footer {
+  background-color: #ff9;
+  width: 100%;
+  height: 10%;
+  color: #0f0;
+  font-size: 20pt;
+  text-align: center;
+}

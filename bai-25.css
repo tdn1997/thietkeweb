@@ -1,0 +1,13 @@
+div {
+  background-color: #9ACD32;
+  color: #fff;
+  font-size: 30px;
+  height: 100px;
+  width: 800px;
+  border: 5px solid #FFFF00;
+  text-align: center;
+}
+p {
+  color: #D2691E;
+  font-size: 20px;
+}

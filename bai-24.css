@@ -1,0 +1,21 @@
+h3 {
+  text-align: center;
+  color: #ff4500;
+  font-size: 30px;
+}
+p {
+  text-align: justify;
+  color: #ffa500;
+  font-size: 20px;
+  column-count: 4;
+  column-gap: 50px;
+  column-rule-style: dotted;
+  column-rule-width: 5px;
+  column-rule-color: #ff6347;
+}
+marquee {
+  behavior: "scroll";
+  direction: "right";
+  scrollamount: "20";
+  loop: "-1";
+}
