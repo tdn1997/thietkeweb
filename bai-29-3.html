@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bố cục trang web</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #ddd;
+        padding: 24px 48px;
+      }
+
+      .component {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #888;
+        margin: 5px;
+        padding: 10px;
+      }
+
+      .logo {
+        justify-content: start;
+        height: 30px;
+        font-size: 35px;
+      }
+
+      .nav {
+        height: 20px;
+      }
+
+      .banner {
+        height: 70px;
+      }
+
+      .sidebar {
+        background-color: transparent;
+        justify-content: start;
+        align-items: flex-start;
+        float: left;
+        margin: 5px;
+        padding: 0;
+        height: 200px;
+      }
+
+      .article {
+        margin: 10px 5px;
+        height: 200px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="component logo">Logo</header>
+    <aside class="component sidebar">
+      Sidebar <br />
+      Navigation
+    </aside>
+    <div class="component banner">Header / Banner</div>
+    <article class="component article">Body Area</article>
+
+    <footer class="component">Footer</footer>
+  </body>
+</html>
